@@ -4,3 +4,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+    /* test */
+    background-color: chartreuse;
+    color: blanchedalmond;
+}
+
+img{
+    width: 100%;
+}
+
+/* MAIN */
+main{
+    height: calc( 100% - 60px );
+    /* test */
+    background-color: aqua;
+}
+
+/* side nav */
+.side_nav{
+    float: left;
+    height: 100%;
+    width: 160px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.logo{
+    padding: 20px 40px 20px 20px;
+}
+
+/* Contents */
+.contents{
+    float: left;
+    height: 100%;
+    width: calc( 100% - 160px);
+    overflow-y: auto;
+    background-color: #141922;
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background-color: #282828;
+}
