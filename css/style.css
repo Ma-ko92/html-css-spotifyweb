@@ -87,6 +87,23 @@ nav{
     margin-right: 5px;
 }
 
+.menu_small{
+    display: none;
+}
+.menu_small a{
+    padding: 0;
+}
+
+.menu_small img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    opacity: 0.8;
+}
+.menu_small img:hover{
+    opacity: 1;
+}
+
 /* Playlist */
 .playlist{
     flex-grow: 1;
@@ -220,6 +237,8 @@ footer{
     nav{
         width: 50px;
     }
+
+    /* Logo */
     .nav_container .logo .logo_big{
         display: none;
     }
@@ -229,4 +248,13 @@ footer{
     .nav_container .logo .logo_small{
         display: block;
     }
+
+    /* Menu */
+    .menu{
+        display: none;
+    }
+    .menu_small{
+        display: block;
+    }
+    
 }
