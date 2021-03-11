@@ -57,6 +57,10 @@ nav{
     padding: 20px 55px 15px 18px;
 }
 
+.logo_small{
+    display: none;
+}
+
 /* Menu */
 .menu{
     padding-bottom: 15px;
@@ -86,6 +90,7 @@ nav{
 /* Playlist */
 .playlist{
     flex-grow: 1;
+    overflow: hidden;
 }
 
 .playlist h2{
@@ -205,4 +210,23 @@ footer{
     height: 60px;
     overflow: hidden;
     background-color: #282828;
+}
+
+/* Media query */
+
+/* Side nav */
+
+@media all and (max-width: 767px) {
+    nav{
+        width: 50px;
+    }
+    .nav_container .logo .logo_big{
+        display: none;
+    }
+    .nav_container .logo{
+        padding: 5px 10px 10px 10px;
+    }
+    .nav_container .logo .logo_small{
+        display: block;
+    }
 }
