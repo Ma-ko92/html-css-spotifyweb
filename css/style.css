@@ -90,6 +90,7 @@ nav{
 /* Menu small */
 .menu_small{
     display: none;
+    flex-grow: 1;
 }
 .menu_small a{
     padding: 0;
@@ -177,6 +178,10 @@ nav{
     opacity: 0.5;
 }
 
+.bottom_nav a:nth-child(2){
+    display: none;
+}
+
 .arrow{
     display: inline-block;
     width: 13px;
@@ -234,7 +239,7 @@ footer{
 
 /* Side nav */
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 552px) {
     nav{
         width: 50px;
     }
@@ -263,4 +268,24 @@ footer{
         display: none;
     }
     
+    /* Bottom nav */
+    .bottom_nav a{
+        display: none;
+    }
+    .bottom_nav::after{
+        display: none;
+    }
+    .bottom_nav a:nth-child(2){
+        display: inline-block;
+        padding: 0px 19px;
+    }
+
+    /* Profile */
+    .profile span{
+        display: none;
+    }
+    .profile{
+        margin: 0;
+        padding: 10px 13.5px;
+    }
 }
