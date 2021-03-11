@@ -87,6 +87,7 @@ nav{
     margin-right: 5px;
 }
 
+/* Menu small */
 .menu_small{
     display: none;
 }
@@ -95,7 +96,7 @@ nav{
 }
 
 .menu_small img{
-    width: 60%;
+    width: 55%;
     margin: auto;
     display: block;
     opacity: 0.8;
@@ -255,6 +256,11 @@ footer{
     }
     .menu_small{
         display: block;
+    }
+
+    /* Playlist */
+    .playlist{
+        display: none;
     }
     
 }
