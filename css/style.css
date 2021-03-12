@@ -239,30 +239,50 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px 10px;
 }
-.cover{
-    display: inline-block;
+
+.player_contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .cover img{
     width: 40px;
 }
 
-.caption{
-    display: inline-block;
+
+.caption h3{
+    font-size: 11px;
+    line-height: 5px;
 }
 
+.caption{
+    margin-left: 10px;
+}
 .caption a{
     padding: 0;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.caption a:hover{
+    opacity: 1;
 }
 
 .icon{
-    display: inline-block;
+    margin-left: 40px;
 }
 
 .icon a{
-    padding: 0;
+    padding: 0px 5px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.icon a:hover{
+    opacity: 1;
 }
 
 
