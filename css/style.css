@@ -291,6 +291,9 @@ footer{
 }
 
 /* Column Middle */
+.player_nav{
+    flex-grow: 1;
+}
 .player_nav span{
     font-size: 10px;
     font-weight: 600;
@@ -317,15 +320,20 @@ footer{
    
 }
 
+/* Player bar */
+.player_bar{
+    text-align: center;
+}
+
 
 /* Time bar */
 .time_bar{
     display: inline-block;
-    width: 400px;
+    width: 50%;
     border:2px solid #595959;
     border-radius: 20px;
     vertical-align: middle;
-    margin: 0px 15px;
+    margin: 0% 2%;
     position: relative;
 }
 
