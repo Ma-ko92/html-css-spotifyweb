@@ -233,6 +233,7 @@ footer{
     height: 80px;
     overflow: hidden;
     background-color: #282828;
+    min-width: 503px;
 }
 
 /* Container */
@@ -241,7 +242,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10px 25px 10px;
+    padding: 10px;
 }
 
 /* Column Left */
@@ -255,10 +256,14 @@ footer{
     width: 40px;
 }
 
+.caption div{
+    line-height: 10px;
+}
+
 
 .caption h3{
     font-size: 11px;
-    line-height: 5px;
+    line-height: 13px;
 }
 
 .caption{
@@ -277,7 +282,7 @@ footer{
 }
 
 .icon{
-    margin-left: 40px;
+    padding: 0px 25px;
 }
 
 .icon a{
@@ -350,7 +355,7 @@ footer{
     bottom: -2px;
     left: -1%;
     display: block;
-    width: 80px;
+    width: 25%;
     border: 2px solid white;
     border-radius: 20px;
     opacity: 0.7;
@@ -359,7 +364,7 @@ footer{
     position: absolute;
     content: "";
     bottom: -6px;
-    left: 70px;
+    left: 25%;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -381,6 +386,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 15px;
 }
 
 .player_setup a{
@@ -497,6 +503,14 @@ footer{
         padding: 10px 13.5px;
     }
 
-    /* Player */
-    
+    /* Footer */
+    /* Left column */
+
+    .cover img{
+        width:25px;
+    }
+    .caption h3{
+        font-size: 12px;
+    }
+
 }
