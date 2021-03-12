@@ -319,7 +319,7 @@ footer{
     position: relative;
 }
 
-.time_bar::before{
+.time_bar::after{
     position: absolute;
     content: "";
     bottom: -2px;
