@@ -34,7 +34,7 @@ li{
 
 /* MAIN */
 main{
-    height: calc( 100% - 60px);
+    height: calc( 100% - 70px);
 }
 
 /* Side nav */
@@ -230,10 +230,41 @@ nav{
 
 /* FOOTER */
 footer{
-    height: 60px;
+    height: 70px;
     overflow: hidden;
     background-color: #282828;
 }
+
+.player_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cover{
+    display: inline-block;
+}
+
+.cover img{
+    width: 40px;
+}
+
+.caption{
+    display: inline-block;
+}
+
+.caption a{
+    padding: 0;
+}
+
+.icon{
+    display: inline-block;
+}
+
+.icon a{
+    padding: 0;
+}
+
 
 /* Media query */
 
