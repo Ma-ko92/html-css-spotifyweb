@@ -242,6 +242,7 @@ footer{
     padding: 15px 10px;
 }
 
+/* Column Left */
 .player_contents{
     display: flex;
     flex-direction: row;
@@ -261,6 +262,7 @@ footer{
 .caption{
     margin-left: 10px;
 }
+
 .caption a{
     padding: 0;
     font-size: 10px;
@@ -284,6 +286,22 @@ footer{
 .icon a:hover{
     opacity: 1;
 }
+
+/* Column Middle */
+.time_bar{
+    display: inline-block;
+    width: 400px;
+    border:2px solid #595959;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
 
 
 /* Media query */
