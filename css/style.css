@@ -14,7 +14,7 @@
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 a{
@@ -219,7 +219,7 @@ nav{
 }
 /* Side nav end */
 
-/* Main contents */
+/* MAIN CONTENTS */
 .contents{
     float: left;
     height: 100%;
@@ -227,6 +227,96 @@ nav{
     overflow-y: auto;
     background-color: #141922;
 }
+
+.contents_wrapper{
+    padding: 100px 15px 20px 15px;
+}
+
+.contents_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.contents_menu a{
+    color: #86898d;
+}
+
+.contents_menu a:hover{
+    color: white;
+}
+
+.contents_menu li:first-child{
+    position: relative;
+}
+
+.contents_menu li:first-child::after{
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 42px;
+    height: 2px;
+    width: 27px;
+    background-color: greenyellow;
+}
+
+.contents_wrapper h2{
+    font-size: 22px;
+}
+
+.recently_contents{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.recently_contents h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.recently_contents span{
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+.contents_element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.cover_element{
+    position: relative;
+}
+
+.cover_element a{
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    display: none;
+}
+.cover_element:hover img{
+    background-color: black;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.cover_element:hover a{
+    display: block;
+    opacity: 1;
+}
+
 
 /* FOOTER */
 footer{
@@ -326,8 +416,7 @@ footer{
 }
 
 .play_btn i:hover{
-    font-size: 35px;
-    margin: -5px 0.5px;
+    transform: scale(1.2);
    
 }
 
