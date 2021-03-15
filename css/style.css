@@ -188,11 +188,7 @@ nav{
     height: 13px;
     text-align: center;
     vertical-align: middle;
-    line-height: 8px;
-    border: 1px solid white;
-    border-radius: 50%;
     margin-right:10px;
-    font-size: 13px;
 }
 
 /* Profile */
@@ -229,9 +225,10 @@ nav{
 }
 
 .contents_wrapper{
-    padding: 100px 15px 20px 15px;
+    padding: 20px 15px 20px 15px;
 }
 
+/* Contents menu */
 .contents_menu{
     display: flex;
     flex-direction: row;
@@ -239,7 +236,7 @@ nav{
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-top: 80px;
     flex-wrap: wrap;
 }
 
@@ -267,21 +264,23 @@ nav{
 
 .contents_wrapper h2{
     font-size: 22px;
+    margin-top: 25px;
 }
 
-.recently_contents{
+/* Recently contents */
+.main_contents{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 }
 
-.recently_contents h3{
+.main_contents h3{
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 14px;
 }
 
-.recently_contents span{
+.main_contents span{
     font-size: 11px;
     opacity: 0.5;
 }
@@ -291,6 +290,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
+    flex-basis: 100%;
 }
 
 .cover_element{
@@ -315,6 +315,21 @@ nav{
 .cover_element:hover a{
     display: block;
     opacity: 1;
+}
+
+/* Create for contents */
+.contents_wrapper p{
+    font-size: 11px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.create_for_elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    flex-basis: 15%;
 }
 
 
@@ -566,6 +581,8 @@ footer{
 
 /* Media query */
 
+/* XS */
+
 @media all and (max-width: 552px) {
     .wrapper{
         min-width: 503px;
@@ -626,6 +643,20 @@ footer{
         width: calc( 100% - 50px );
     }
 
+    /* Main Contents */
+    .main_contents{
+        flex-wrap: wrap;
+    }
+
+    .contents_element{
+        flex-basis: 45%;
+    }
+
+    /* Create for section */
+    .create_for_elements{
+        flex-basis: 45%;
+    }
+
     /* FOOTER */
     /* Left column */
 
@@ -639,5 +670,43 @@ footer{
     /* UPGRADE BAR */
     .upgrade_bar{
         width: calc( 100% - 50px );
+    }
+
+    
+}
+
+/* S */
+
+@media all and (min-width: 553px) and (max-width: 639px) {
+     /* Main Contents */
+     .main_contents{
+        flex-wrap: wrap;
+    }
+
+    .contents_element{
+        flex-basis: 43%;
+    }
+
+    /* Create for section */
+    .create_for_elements{
+        flex-basis: 43%;
+    }
+}
+
+/* MD */
+
+@media all and (min-width: 640px) and (max-width: 878px) {
+    /* Main Contents */
+    .main_contents{
+        flex-wrap: wrap;
+    }
+
+    .contents_element{
+        flex-basis: 20%;
+    }
+
+    /* Create for section */
+    .create_for_elements{
+        flex-basis: 20%;
     }
 }
