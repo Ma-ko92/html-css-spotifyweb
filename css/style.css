@@ -290,7 +290,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    flex-basis: 100%;
+    flex-basis: calc( 100% / 6 );
 }
 
 .cover_element{
@@ -329,7 +329,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    flex-basis: 15%;
+    flex-basis: calc( 100% / 6 );
 }
 
 /* Popular Artist section */
@@ -338,7 +338,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    flex-basis: 15%;
+    flex-basis: calc( 100% / 6 );
 }
 
 .popular_artist_elements img{
@@ -658,17 +658,17 @@ footer{
     }
 
     .contents_element{
-        flex-basis: 45%;
+        flex-basis: calc( 100% / 3 );
     }
 
     /* Create for section */
     .create_for_elements{
-        flex-basis: 45%;
+        flex-basis: calc( 100% / 3 );
     }
 
     /* Popular Artist section */
     .popular_artist_elements{
-        flex-basis: 45%;
+        flex-basis: calc( 100% / 3 );
     }
 
     /* FOOTER */
@@ -698,17 +698,17 @@ footer{
     }
 
     .contents_element{
-        flex-basis: 43%;
+        flex-basis: calc( 100% / 4 );
     }
 
     /* Create for section */
     .create_for_elements{
-        flex-basis: 43%;
+        flex-basis: calc( 100% / 4 );
     }
 
     /* Popular Artist section */
     .popular_artist_elements{
-        flex-basis: 43%;
+        flex-basis: calc( 100% / 4 );
     }
 }
 
@@ -721,16 +721,16 @@ footer{
     }
 
     .contents_element{
-        flex-basis: 20%;
+        flex-basis: calc( 100% / 5 );
     }
 
     /* Create for section */
     .create_for_elements{
-        flex-basis: 20%;
+        flex-basis: calc( 100% / 5 );
     }
 
     /* Popular Artist section */
     .popular_artist_elements{
-        flex-basis: 20%;
+        flex-basis: calc( 100% / 5 );
     }
 }
