@@ -332,6 +332,18 @@ nav{
     flex-basis: 15%;
 }
 
+/* Popular Artist section */
+.popular_artist_elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    flex-basis: 15%;
+}
+
+.popular_artist_elements img{
+    border-radius: 50%;
+}
 
 /* FOOTER */
 footer{
@@ -657,6 +669,11 @@ footer{
         flex-basis: 45%;
     }
 
+    /* Popular Artist section */
+    .popular_artist_elements{
+        flex-basis: 45%;
+    }
+
     /* FOOTER */
     /* Left column */
 
@@ -691,6 +708,11 @@ footer{
     .create_for_elements{
         flex-basis: 43%;
     }
+
+    /* Popular Artist section */
+    .popular_artist_elements{
+        flex-basis: 43%;
+    }
 }
 
 /* MD */
@@ -707,6 +729,11 @@ footer{
 
     /* Create for section */
     .create_for_elements{
+        flex-basis: 20%;
+    }
+
+    /* Popular Artist section */
+    .popular_artist_elements{
         flex-basis: 20%;
     }
 }
