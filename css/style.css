@@ -215,7 +215,7 @@ nav{
 }
 /* Side nav end */
 
-/* MAIN CONTENTS */
+/* Main contents */
 .contents{
     float: left;
     height: 100%;
@@ -344,6 +344,7 @@ nav{
 .popular_artist_elements img{
     border-radius: 50%;
 }
+/* MAIN END */
 
 /* FOOTER */
 footer{
@@ -555,6 +556,7 @@ footer{
     display: block;
     cursor: pointer;
 }
+/* FOOTER END */
 
 /* UPGRADE BAR */
 .upgrade_bar{
@@ -583,12 +585,7 @@ footer{
 .upgrade_bar .btn:hover{
     transform: scale(1.1); 
 }
-
-
-
-
-
-
+/* UPGRADE BAR END */
 
 
 /* Media query */
