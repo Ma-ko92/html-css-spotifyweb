@@ -332,7 +332,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    flex-basis: calc( 100% / 6 );
+    flex-basis: calc(( 100% / 6 ) - 20px);
 }
 
 .popular_artist_elements img{
@@ -657,7 +657,7 @@ footer{
 
     /* Popular Artist section */
     .popular_artist_elements{
-        flex-basis: calc( 100% / 3 );
+        flex-basis: calc(( 100% / 3 ) - 20px);
     }
 
     /* FOOTER */
@@ -692,7 +692,7 @@ footer{
 
     /* Popular Artist section */
     .popular_artist_elements{
-        flex-basis: calc( 100% / 4 );
+        flex-basis: calc(( 100% / 4 ) - 20px);
     }
 }
 
@@ -710,6 +710,6 @@ footer{
 
     /* Popular Artist section */
     .popular_artist_elements{
-        flex-basis: calc( 100% / 5 );
+        flex-basis: calc(( 100% / 5 ) - 20px);
     }
 }
