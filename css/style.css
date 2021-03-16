@@ -108,6 +108,8 @@ nav{
 
 /* Playlist */
 .playlist{
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     overflow: hidden;
 }
@@ -290,7 +292,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    flex-basis: calc( 100% / 6 );
+    flex-basis: calc(( 100% / 6 ) - 20px);
 }
 
 .cover_element{
@@ -322,14 +324,6 @@ nav{
     font-size: 11px;
     opacity: 0.5;
     margin-top: 10px;
-}
-
-.create_for_elements{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
-    flex-basis: calc( 100% / 6 );
 }
 
 /* Popular Artist section */
@@ -658,12 +652,7 @@ footer{
     }
 
     .contents_element{
-        flex-basis: calc( 100% / 3 );
-    }
-
-    /* Create for section */
-    .create_for_elements{
-        flex-basis: calc( 100% / 3 );
+        flex-basis: calc(( 100% / 3 ) - 20px);
     }
 
     /* Popular Artist section */
@@ -698,12 +687,7 @@ footer{
     }
 
     .contents_element{
-        flex-basis: calc( 100% / 4 );
-    }
-
-    /* Create for section */
-    .create_for_elements{
-        flex-basis: calc( 100% / 4 );
+        flex-basis: calc(( 100% / 4 ) - 20px);
     }
 
     /* Popular Artist section */
@@ -721,12 +705,7 @@ footer{
     }
 
     .contents_element{
-        flex-basis: calc( 100% / 5 );
-    }
-
-    /* Create for section */
-    .create_for_elements{
-        flex-basis: calc( 100% / 5 );
+        flex-basis: calc(( 100% / 5 ) - 20px);
     }
 
     /* Popular Artist section */
